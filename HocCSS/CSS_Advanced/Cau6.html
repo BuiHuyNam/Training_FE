@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Câu 4</title>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        body{
+            margin: 0;
+        }
+        
+        .header{
+            width: 100%;
+            background-color: darkblue;
+            padding: 10px 0px;
+        }
+
+        .container{
+            width: 100%;
+            
+           
+        }
+        .wrap{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 50px;
+           
+        }
+        .menu{
+            margin: auto;
+        }
+        .menu ul{
+            display: flex;
+            
+        }
+        .menu ul li{
+            list-style: none;
+            color: white;
+            padding: 10px;
+        }
+        .menu ul li a{
+            font-size: 25px;
+            color: white;
+           
+        }
+        .menu ul li a:hover{
+           
+            color: rgb(15, 15, 255)
+        }
+        .logo{
+            
+            height: 80px;
+           
+            padding: auto;
+        }
+        .logo img{
+            width: auto;
+            height: 100%;
+        }
+
+        .button{
+            color: darkblue;
+            font-size: 20px;
+            background-color: white;
+            border-radius: 10px;
+           
+            margin: auto;
+            padding: 15px 30px;
+        }
+        .button:hover{
+            background-color: aqua;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        
+      </style>
+</head>
+<body>
+    <h2>Câu 6: Header</h2>
+    <p><strong>Yêu cầu</strong>: Sử dụng HTML và CSS để dựng khối bên dưới.</p>
+    <header class="header">
+        <div class="container">
+          <div class="wrap">
+            <div class="logo">
+              <a href="#">
+                <img src="img/logo-28tech.svg" alt="28Tech">
+              </a>
+            </div>
+      
+            <nav class="menu">
+              <ul>
+                <li>
+                  <a href="#" class="active">Trang chủ</a>
+                </li>
+                <li>
+                  <a href="#">Giới thiệu</a>
+                </li>
+                <li>
+                  <a href="#">Khóa học Zoom</a>
+                </li>
+                <li>
+                  <a href="#">Khóa học Video</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Feedback</a>
+                </li>
+              </ul>
+            </nav>
+    
+            <a class="button" href="#">
+              Liên hệ
+            </a>
+          </div>
+        </div>
+      </header>
+</body>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</html>
